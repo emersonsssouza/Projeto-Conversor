@@ -11,20 +11,29 @@
 <body>
     <main>
         <section class="container">
-            <h1>Conversor de Temperatura</h1>
-            <div class="content">
-                <div class="content_convert">
-                    <label for="number1">Celsius</label>
-                    <input type="number" name="number1" id="number1" onkeyup="Celsius()" onclick="limparConteudo()">
+            <div class="container_title">
+                <h1>Conversor de Temperatura</h1>
+            </div>
+
+            <div class="container_itens">
+                <div class="content">
+                    <img src="Imagens/Convert.png" alt="">
                 </div>
 
-                <div class="content_convert">
-                    <label for="number2">Fahrenheit</label>
-                    <input type="number" name="number2" id="number2" onkeyup="Fahrenheit()" onclick="limparConteudo()">
-                </div>
+                <div class="content_itens">
+                    <div class="itens">
+                        <label for="number1">Celsius</label>
+                        <input type="number" name="number1" id="number1" onkeyup="Celsius()" onclick="limparConteudo()">
+                    </div>
+                    <div class="itens">
+                        <label for="number2">Fahrenheit</label>
+                        <input type="number" name="number2" id="number2" onkeyup="Fahrenheit()"
+                            onclick="limparConteudo()">
+                    </div>
 
-                <div class="res" id="res">
-                    <p></p>
+                    <div class="res" id="res">
+                        <p></p>
+                    </div>
                 </div>
             </div>
         </section>
